@@ -1,6 +1,6 @@
 num1 = int(input("Enter the first number: ")) #prompt for first number
 num2 = int(input("Enter the second number: ")) #prompt for second number 
-operation = input("Choose the type of operation (+, -, *, /): ") #prompt for the operation involved
+operation = input("Choose the operation (+, -, *, /): ") #prompt for the operation involved
 
 match operation:
     case "+":
