@@ -7,6 +7,8 @@ def perform_operation(num1, num2, operation):
     elif operation == 'multiply':
         return (num1 * num2)
     elif operation == 'divide':
-        if num2 == 0:
+        while num2 == 0:
             print(f'Error: cannot divide by zero')
-        return (num1 / num2)
+            break
+        else:
+            return (num1 / num2)
