@@ -3,12 +3,12 @@ CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 def convert_to_celsius(fahrenheit):
     global FAHRENHEIT_TO_CELSIUS_FACTOR
-    temperature = FAHRENHEIT_TO_CELSIUS_FACTOR * (fahrenheit - 32)
+    temperature = (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
     print(f'{fahrenheit}°F is {temperature}°C')
 
 def convert_to_fahrenheit(celsius):
     global CELSIUS_TO_FAHRENHEIT_FACTOR
-    temperature = (CELSIUS_TO_FAHRENHEIT_FACTOR * celsius) + 32
+    temperature = (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
     print(f'{celsius}°C is {temperature}°F')
 
 
