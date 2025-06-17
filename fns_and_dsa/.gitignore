@@ -1,0 +1,8 @@
+# Ignore python cache files __pycache__/
+*.pyc
+
+# Ignore vscode settings
+.vscode/
+
+# Ignore test scripts
+test_*.py

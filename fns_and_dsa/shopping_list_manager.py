@@ -1,5 +1,3 @@
-
-
 def display_menu():
     print("Shopping List Manager")
     print("1. Add Item")
@@ -34,3 +32,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
