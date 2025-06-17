@@ -15,7 +15,15 @@ class BankAccount:
 
 
     def display_balance(self):
-        print("Current Balance: $",self.account_balance)
+        print(f"Current Balance: ${self.account_balance: .2f}")
+    
+
+
+    
+# Example usage:
+if __name__ == "__main__":
+    my_account = BankAccount(100)
+    my_account.display_balance()
 
 
         
